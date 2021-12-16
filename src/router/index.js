@@ -1,8 +1,8 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Home from '../pages/Home.vue'
-import Flog from '../pages/Flog.vue'
-import Tlog from '../pages/Tlog.vue'
+import Loginfailed from '../pages/Loginfailed.vue'
+import Loginaccepted from '../pages/Loginaccepted.vue'
 
 Vue.use(VueRouter);
 
@@ -13,14 +13,14 @@ const routes = [
     component: Home,
   },
   {
-    path: '/Flog',
-    name: 'Flog',
-    component: Flog,
+    path: '/loginfailed',
+    name: 'Loginfailed',
+    component: Loginfailed,
   },
   {
-    path: '/Tlog',
-    name: 'Tlog',
-    component: Tlog,
+    path: '/loginaccepted',
+    name: 'Loginaccepted',
+    component: Loginaccepted,
   },
 ];
 

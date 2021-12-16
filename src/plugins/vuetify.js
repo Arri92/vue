@@ -16,7 +16,7 @@ export default new Vuetify({
             warning: '#FFC107',
           },
           dark: {
-          primary: "#90caf9",
+            primary: "#90caf9",
           },
         },
     }

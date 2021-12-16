@@ -1,24 +1,25 @@
 <template>
-  <v-app>
-    <v-parallax
-    absolute
-        src="https://mentaldisaster.eu/modules/revsliderprestashop/uploads/dopelove_1.png"
-    >
-    <v-main>
+  <v-app class="app">
+     <v-main>
       <router-view/>
-    </v-main>
-    </v-parallax>
+     </v-main>
   </v-app>
 </template>
 
 <script>
-
 export default {
   name: 'App',
-
-  data: () => ({
-    //
-  }),
 };
 </script>
-
+<style scoped>
+#app{
+    min-width: 100%;
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    position:absolute;
+    background-position: center;
+    background-image: url(tap.png);
+}
+</style>
