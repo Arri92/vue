@@ -1,6 +1,6 @@
 <template>
   <div id="flog">
-  <h1>Logowanie nieudane</h1>
+  <h1><span class="secondary--text">Logowanie nieudane</span></h1>
   <router-link to="/">back</router-link>
   </div>
 </template>
